@@ -9,36 +9,41 @@ body {
     padding: 0;
 }
 
-.header {
+header {
     width: 100%;
-    height: 69px;
+    min-height: 69px;
     position: fixed;
     border-bottom: 1px solid seashell;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     top: 0;
     background-color: black;
 }
 
-header img {
-    height: 50px;
-    margin-left: 10px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 69px;
-    width: auto;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
 }
 
-li, a {
-    display: inline-block;
-    text-decoration: underline;
-    padding-right: 5px;
+.header img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nav-btn {
+    margin-right: 10px;
     color: seashell;
+    padding: 5px;
+    text-decoration: underline;
 }
 
 #mission,
@@ -66,7 +71,7 @@ li, a {
 
 .featured-box {
     max-width: 1000px;
-    display: inline-flex;
+    display: flex;
     height: auto;
     flex-wrap: wrap;
     align-items: center;
@@ -91,7 +96,7 @@ li, a {
 }
 
 .loc {
-    display: inline-flex;
+    display: flex;
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -106,6 +111,7 @@ li, a {
     justify-content: space-around;
     margin: 15px 40px;
     width: 300px;
+    opacity: 1;
 }
 
 .contacts {
