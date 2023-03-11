@@ -13,6 +13,10 @@ body {
     padding: 0;
 }
 
+.display {
+    display: flex;
+}
+
 header {
     min-height: 69px;
     position: sticky;
@@ -22,7 +26,6 @@ header {
 }
 
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
