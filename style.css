@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -9,12 +11,6 @@ body {
     background-color: black;
     text-align: center;
     opacity: 0.9;
-    margin: 0;
-    padding: 0;
-}
-
-.display {
-    display: flex;
 }
 
 header {
@@ -26,11 +22,12 @@ header {
 }
 
 .header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav {
+#nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -38,7 +35,7 @@ header {
     margin-top: 10px;
 }
 
-.header img {
+#logo {
     height: 50px;
     width: auto;
     margin-left: 10px;
