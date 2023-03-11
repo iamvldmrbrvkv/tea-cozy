@@ -10,9 +10,8 @@ body {
 }
 
 header {
-    width: 100%;
     min-height: 69px;
-    position: fixed;
+    position: sticky;
     border-bottom: 1px solid seashell;
     top: 0;
     background-color: black;
