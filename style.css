@@ -54,7 +54,7 @@ li, a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: url('./images/img-mission-background.jpeg') center;
+    background: url('images/img-mission-background.jpeg') center;
     margin: 0 auto;
 }
 
@@ -83,7 +83,7 @@ li, a {
 .locations-box {
     min-height: 500px;
     max-width: 1200px;
-    background: url('./images/img-locations-background.jpeg') center;
+    background: url('images/img-locations-background.jpeg') center;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
